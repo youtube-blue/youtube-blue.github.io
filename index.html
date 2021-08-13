@@ -1,29 +1,64 @@
 <script src="script.js"></script>
-<body style="background-color:#1E4553;">
-<img style="position: absolute;
-width: 502px;
-height: 353.08px;
-left: 709px;
-top: 255px;" src="resources/logo.png"></img>
-<p style="position: absolute;
-width: 432px;
-height: 82px;
-left: 744px;
-top: 642px;
+<body id="firstBody" style="background-color:#1E4553;">
+  <img id="menuActivator" src="resources/invisible.png" onmouseover="showHoverMenu()" style="position: absolute;
+  width: 1781px;
+  height: 148px;
+  left: 69px;
+  top: 0px;">
+  <div style="position: absolute;
+  width: 1781px;
+  height: 148px;
+  left: 69px;
+  top: 0px;
+  display: none;" id="menu">
+    <img id="menuBG" src="resources/menuBG.png" style="position: absolute;
+    width: 1866px;
+    height: 135px;
+    left: -40px;
+    top: 0px;">
+    <button id="closeBTN" style="background: url(resources/closeBTN.png);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1760px;
+    top: 20px;
+    border: none;
+    cursor: pointer;" onclick="hideHoverMenu()"></button>
+    <img id="maximizeBTN" src="resources/maximizeBTN.png" style="position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1730px;
+    top: 20px;">
+    <img id="minimizeBTN" src="resources/minimizeBTN.png" style="position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1700px;
+    top: 20px;">
+  </div>
+  <img id="logo" style="position: absolute;
+  width: 502px;
+  height: 353.08px;
+  left: 709px;
+  top: 155px;" src="resources/logo.png">
+  <p id="title" style="position: absolute;
+  width: 432px;
+  height: 82px;
+  left: 744px;
+  top: 542px;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 70px;
-line-height: 82px;
-/* identical to box height */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 82px;
+  /* identical to box height */
 
-text-align: center;
+  text-align: center;
 
-color: #219FCA;">YouTube Blue</p>
-<img style="position: absolute;
-width: 94px;
-height: 95px;
-left: 910px;
-top: 850px;" src="resources/scrollBTN.png"></img>
+  color: #219FCA;">YouTube Blue</p>
+  <img id="scrollBTN" style="position: absolute;
+  width: 94px;
+  height: 95px;
+  left: 910px;
+  top: 750px;" src="resources/scrollBTN.png">
 </body>

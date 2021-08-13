@@ -1,0 +1,5 @@
+<img id="closeBTN" src="resources/closeBTN.png" style="position: absolute;
+width: 20px;
+height: 20px;
+left: 1760px;
+top: 20px;">
