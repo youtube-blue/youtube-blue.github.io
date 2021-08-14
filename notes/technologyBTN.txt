@@ -1,0 +1,5 @@
+<img id="technologyBTN" src="resources/technologyBTN.png" style="position: absolute;
+width: 327px;
+height: 112px;
+left: 482px;
+top: 10px;">

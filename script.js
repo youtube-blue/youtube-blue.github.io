@@ -11,3 +11,19 @@ function hideHoverMenu() {
   menu.style.display = "none";
   sleep(1000)
 }
+function downloadBTN() {
+  console.log("Downloading YouTube Blue installer...")
+}
+function technologyBTN() {
+  console.log("Redirecting to YouTube Blue technology site...")
+}
+function documentationBTN() {
+  console.log("Redirecting to YouTube Blue documentation site...")
+}
+function githubBTN() {
+  console.log("Redirecting to YouTube Blue github...")
+  window.open("https://github.com/youtube-blue","_self")
+}
+function scrollDown() {
+  console.log("scrolling...")
+}
