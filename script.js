@@ -7,6 +7,7 @@ function showHoverMenu() {
   menu.style.display = "block";
 }
 function hideHoverMenu() {
-  var menu = document.getElementById("menu");
+  menu = document.getElementById("menu");
   menu.style.display = "none";
+  sleep(1000)
 }
