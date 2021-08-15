@@ -1,29 +1,34 @@
+window.addEventListener('DOMContentLoaded', (event) => {
+    var menu = document.getElementById("menu");
+});
 function sleep(sleepDuration){
     var now = new Date().getTime();
-    while(new Date().getTime() < now + sleepDuration){ /* do nothing */ }
+    while(new Date().getTime() < now + sleepDuration){ /* do nothing */ };
 }
 function showHoverMenu() {
-  var menu = document.getElementById("menu");
   menu.style.display = "block";
 }
 function hideHoverMenu() {
   menu = document.getElementById("menu");
   menu.style.display = "none";
-  sleep(1000)
+  sleep(1000);
 }
 function downloadBTN() {
-  console.log("Downloading YouTube Blue installer...")
+  document.getElementById("downloadsTitle").scrollIntoView( {behavior: "smooth" });
 }
 function technologyBTN() {
-  console.log("Redirecting to YouTube Blue technology site...")
+  window.open("https://github.com/youtube-blue/youtube-blue-wiki/blob/main/technology.md", "_self");
 }
 function documentationBTN() {
-  console.log("Redirecting to YouTube Blue documentation site...")
+  window.open("https://github.com/youtube-blue/youtube-blue-wiki/blob/main/README.md", "_self");
 }
 function githubBTN() {
-  console.log("Redirecting to YouTube Blue github...")
-  window.open("https://github.com/youtube-blue","_self")
+  window.open("https://github.com/youtube-blue","_self");
 }
 function scrollDown() {
-  console.log("scrolling...")
+  document.getElementById("downloadsTitle").scrollIntoView( {behavior: "smooth" });
+}
+function minimizeMenu() {
+  //minimizedMenu.style.display="block";
+  //menu.style.display="none"
 }
